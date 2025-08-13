@@ -1,0 +1,19 @@
+{
+  "name": "akilii_mvp_v13_raw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "supabaseMock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anguspersonal/Akili_mvp_13_OLD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anguspersonal/Akili_mvp_13_OLD/issues"
+  },
+  "homepage": "https://github.com/anguspersonal/Akili_mvp_13_OLD#readme"
+}

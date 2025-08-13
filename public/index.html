@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  
+  <!-- iPhone 16 Optimized Viewport - Critical for mobile optimization -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, interactive-widget=resizes-content" />
+  
+  <!-- iPhone 16 Specific Meta Tags -->
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-touch-fullscreen" content="yes" />
+  
+  <!-- PWA Theme and App Configuration -->
+  <meta name="theme-color" content="#4ecdc4" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="akilii™" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  
+  <!-- iPhone 16 Safe Area CSS Variables -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  
+  <!-- SEO and Social Meta -->
+  <meta name="description" content="akilii™ - AI for every unique mind. NPR-adaptive cognitive cockpits with premium design and personalized AI interactions." />
+  <meta name="keywords" content="AI, cognitive, NPR, neuropsychography, adaptive, personalization, premium, akilii" />
+  <meta name="author" content="akilii™" />
+  
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="akilii™ - AI for every unique mind" />
+  <meta property="og:description" content="NPR-adaptive cognitive cockpits with premium design and personalized AI interactions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://akilii.app" />
+  <meta property="og:image" content="%PUBLIC_URL%/icon-512x512.png" />
+  
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="akilii™ - AI for every unique mind" />
+  <meta name="twitter:description" content="NPR-adaptive cognitive cockpits with premium design." />
+  <meta name="twitter:image" content="%PUBLIC_URL%/icon-512x512.png" />
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  
+  <!-- Apple Touch Icons - All Required Sizes -->
+  <link rel="apple-touch-icon" sizes="57x57" href="%PUBLIC_URL%/icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="%PUBLIC_URL%/icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="%PUBLIC_URL%/icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="%PUBLIC_URL%/icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="%PUBLIC_URL%/icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="%PUBLIC_URL%/icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/icon-180x180.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="%PUBLIC_URL%/icon-192x192.png" />
+  
+  <!-- Standard Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/icon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="%PUBLIC_URL%/icon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/icon-16x16.png" />
+  
+  <!-- Microsoft Tiles -->
+  <meta name="msapplication-TileColor" content="#4ecdc4" />
+  <meta name="msapplication-TileImage" content="%PUBLIC_URL%/icon-144x144.png" />
+  <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+  
+  <!-- iPhone 16 Splash Screens - Updated for latest models -->
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="%PUBLIC_URL%/splash-430x932.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="%PUBLIC_URL%/splash-393x852.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="%PUBLIC_URL%/splash-428x926.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="%PUBLIC_URL%/splash-375x812.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="%PUBLIC_URL%/splash-414x896.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="%PUBLIC_URL%/splash-414x896.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="%PUBLIC_URL%/splash-375x667.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="%PUBLIC_URL%/splash-414x736.png" />
+  
+  <!-- iPad Splash Screens -->
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="%PUBLIC_URL%/splash-834x1194.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="%PUBLIC_URL%/splash-834x1112.png" />
+  <link rel="apple-touch-startup-image" media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="%PUBLIC_URL%/splash-1024x1366.png" />
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sauce+One:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style" />
+  <link rel="preload" href="%PUBLIC_URL%/sw.js" as="script" />
+  
+  <!-- Title -->
+  <title>akilii™ - AI for every unique mind</title>
+  
+  <!-- iPhone 16 Optimized Critical CSS -->
+  <style>
+    /* iPhone 16 Safe Area Variables */
+    :root {
+      /* iPhone 16 Safe Area Insets */
+      --safe-area-inset-top: env(safe-area-inset-top, 44px);
+      --safe-area-inset-right: env(safe-area-inset-right, 0px);
+      --safe-area-inset-bottom: env(safe-area-inset-bottom, 34px);
+      --safe-area-inset-left: env(safe-area-inset-left, 0px);
+      
+      /* iPhone 16 Viewport Units */
+      --vh: 1vh;
+      --dvh: 1dvh;
+      --svh: 1svh;
+      --lvh: 1lvh;
+    }
+
+    /* Critical CSS for immediate rendering */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html {
+      font-family: 'Open Sauce One', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12px;
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      /* iPhone 16 Full Height */
+      height: 100%;
+      height: 100dvh;
+    }
+    
+    body {
+      /* iPhone 16 Full Height with Safe Areas */
+      min-height: 100vh;
+      min-height: 100dvh;
+      height: 100vh;
+      height: 100dvh;
+      background: #1a1a2e;
+      color: #ffffff;
+      overflow-x: hidden;
+      position: relative;
+      touch-action: manipulation;
+      -webkit-overflow-scrolling: touch;
+      
+      /* iPhone 16 Safe Areas */
+      padding-top: var(--safe-area-inset-top);
+      padding-bottom: var(--safe-area-inset-bottom);
+      padding-left: var(--safe-area-inset-left);
+      padding-right: var(--safe-area-inset-right);
+      
+      /* Prevent bounce scrolling on iOS */
+      overscroll-behavior: none;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    #root {
+      /* iPhone 16 Full Viewport */
+      min-height: 100vh;
+      min-height: calc(100vh - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
+      min-height: calc(100dvh - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    /* Loading State */
+    .app-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: linear-gradient(135deg, #1a1a2e 0%, #2a2a4e 50%, #1a1a2e 100%);
+      padding: var(--safe-area-inset-top) var(--safe-area-inset-right) var(--safe-area-inset-bottom) var(--safe-area-inset-left);
+    }
+
+    /* iPhone 16 Specific Optimizations */
+    @media screen and (max-width: 430px) and (max-height: 932px) {
+      html {
+        font-size: 11px; /* Slightly smaller for iPhone 16 */
+      }
+      
+      .app-loading {
+        padding: calc(var(--safe-area-inset-top) + 1rem) 1rem calc(var(--safe-area-inset-bottom) + 1rem) 1rem;
+      }
+    }
+
+    /* Dynamic Viewport Height Support */
+    @supports (height: 100dvh) {
+      body, #root, .app-loading {
+        min-height: 100dvh;
+        height: 100dvh;
+      }
+    }
+  </style>
+  
+  <!-- iPhone 16 Dynamic Viewport Script -->
+  <script>
+    // iPhone 16 Dynamic Viewport Height Fix
+    function setDynamicVH() {
+      const vh = window.innerHeight * 0.01;
+      const dvh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+      document.documentElement.style.setProperty('--dvh', `${dvh}px`);
+      
+      // Also set safe area insets if not supported by CSS env()
+      if (!CSS.supports('padding-top: env(safe-area-inset-top)')) {
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+        if (isIOS) {
+          // Estimate safe areas for older iOS versions
+          document.documentElement.style.setProperty('--safe-area-inset-top', '44px');
+          document.documentElement.style.setProperty('--safe-area-inset-bottom', '34px');
+        }
+      }
+    }
+
+    // Set on load and resize
+    window.addEventListener('load', setDynamicVH);
+    window.addEventListener('resize', setDynamicVH);
+    window.addEventListener('orientationchange', () => {
+      setTimeout(setDynamicVH, 100);
+    });
+
+    // Initial call
+    setDynamicVH();
+  </script>
+  <script type="module" src="/App.tsx"></script>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <!-- Loading Screen for Initial Paint -->
+    <div class="app-loading">
+      <div style="text-align: center;">
+        <div style="width: 60px; height: 60px; border: 3px solid #4ecdc4; border-top: 3px solid transparent; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px;"></div>
+        <h1 style="font-size: 24px; font-weight: 900; background: linear-gradient(-45deg, #ff6b9d, #4ecdc4, #ffe66d, #ff8c42); background-size: 400% 400%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">akilii™</h1>
+        <p style="font-size: 14px; color: #a0aec0; margin-top: 10px;">AI for every unique mind</p>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js')
+          .then(function(registration) {
+            console.log('SW registered: ', registration);
+          })
+          .catch(function(registrationError) {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
